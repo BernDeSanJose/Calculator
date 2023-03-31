@@ -1,36 +1,36 @@
-
 .grey {
-  background-color: lightgray;
-  color: black;
-  font-size: 2rem;
-  padding: 1rem;
-}
-.orange {
-  background-color: orange;
-  font-size: 2rem;
-  padding: 1rem;
-}
-.calcHolder {
-  display: grid;
-  column-gap: 1px;
-  grid-template-columns: auto auto auto auto;
-  row-gap: 1px;
-  max-width: 400px;
-  margin: 0 auto;
-  text-align: center;
-  background-color: black;
-}
-#display {
-  grid-column: 1 / span 4;
-  background-color: black;
-  color: white;
-  font-size: 2.5rem;
-  text-align: right;
-  padding: 1rem;
-}
-#zero {
-  grid-column: 1 / span 3;
-}
-#ce {
-  grid-column: 1 / span 2;  
-}
+    background-color: lightgray;
+    color: black;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .orange {
+    background-color: orange;
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .calcHolder {
+    display: grid;
+    column-gap: 1px;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 1px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+  }
+  #display {
+    grid-column: 1 / span 4;
+    background-color: black;
+    color: white;
+    font-size: 2.5rem;
+    text-align: right;
+    padding: 1rem;
+  }
+  #zero {
+    grid-column: 1 / span 3;
+  }
+  #ce {
+    grid-column: 1 / span 2;  
+  }
+  
